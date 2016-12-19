@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.col-3,
+.col-9,
+.col-12,
+.col-5,
+.col-7,
+.col-6,
+.col-4{
+	position: relative;
+	float: left;	
+	padding-left: 30px;
+	padding-right: 15px;
+}
+.col-3{
+	width:160px;
+}
+.col-9{
+	width:700px;
+}
+.col-12{
+	clear:both;
+}
+.col-5{
+	width:430px;
+
+}
+.col-7{
+	width:530px;
+}
+.col-6{
+	width:530px;
+}
+.col-4{
+	width:300px;
+}
+#head{
+	background-image:url(../images/header-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:500px;
+}
+.logo h2{
+	position:absolute;
+	padding-top: 40px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	color:#fff;
+
+}
+.menu{
+	text-align: right;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li{	
+	list-style: none;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	padding-left: 20px;
+	color: #fff;
+}
+.banner-area {
+	text-align:center;
+	padding:100px 0px 0px 60px;
+}
+.banner-text h1{
+	font-size: 50px;
+	width: 650px;
+	color: #fff;
+	
+}
+.banner-text img{
+	padding-top: 45px;
+	width:130px;
+}
+.banner-area button{
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-left:10px;
+	height:30px;
+	width:130px;
+}
+button{
+	color:#fff;
+}
+.first{
+	background-color: rgba(26,21,21,.5);
+ padding: 0;
+}
+.second{
+	background-color: rgba(245,247,246,.2);
+}
+.content-text{
+	padding-left:50px;
+	padding-top:100px;
+}
+.content-text h3{
+	padding-top:50px;
+	padding-bottom: 20px;
+    padding-left: 50px;
+    color:#cc9900;
+    font-size: 30px;
+    font-family: YesevaOne;
+}
+.content-text img{
+	padding-left:40px;
+}
+
+.content-text p{
+	font-size: 16px;
+	font-family: Lato;
+	text-align: justify;
+	padding-bottom: 50px;
+}
+.content-bg img{
+	padding-left:100px;
+}
+#ingredients{
+	background-image:url(../images/ingredients-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:420px;
+
+}
+.ingredients-bg{
+	padding-right: 170px;
+	padding-top: 50px;
+	color:#fff;
+
+}
+.ingredients-text{
+	text-align: right;
+    padding-right: 120px;
+
+
+
+}
+.ingredients-text h3{
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.ingredients-text img{
+	padding-bottom: 10px;
+}
+.ingredients-pera {
+	
+	width:400px;
+	float: right;
+}
+.ingredients-pera p{
+     padding-right: 30px;
+	text-transform:justify;
+	padding-left: 20px;
+
+}
+.ingredients-overlay{
+	background-color: #000;
+	width:450px;
+	height:340px;
+	opacity:.8;
+	float:right;
+
+}
+.ingredients-pera img{
+	padding-top:10px;
+	padding-bottom: 10px;
+	/*background-color: #000;*/
+
+}
+
+.section-menu h3,h4{
+	padding-top:30px;
+	/*padding-bottom: 20px;*/
+    /*padding-left:50px;*/
+    color:#cc9900;
+    font-size: 30px;
+    font-family: YesevaOne;
+}
+.section-menu h3{
+	padding-left: 90px;
+}
+.section-menu img{
+	padding-left:30px;
+	padding-top: 10px;
+}
+.section-menu h4
+{
+	font-size: 20px;
+	 font-family: YesevaOne;
+	 padding-bottom: 10px;
+	 padding-left: 35px;
+}
+span{
+	padding-left: 40px;
+;
+}
+.dollar span{
+	padding-left: 150px;
+}
+.reviews-bg{
+	margin-top: 30px;
+	background-image:url(../images/reviews-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:400px;
+	
+
+}
+.text-area{
+   background-color: #000;
+	width:400px;
+	height:300px;
+	opacity:.6;
+	margin: 0 auto;
+    position: relative;
+	top: 30px;
+}
+
+.text-head{
+	padding-top: 15px;
+padding-left: 20px;
+	color:#fff;
+}
+.text-head h3{
+	padding-left: 80px;
+	padding-bottom: 10px;
+}
+.text-head img{
+	padding-left:20px;
+	padding-bottom: 10px;
+}
+.text-head p{
+	font-family: YesevaOne;
+	text-transform: justify;
+	line-height:20px;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.footer-bg{
+	margin-top: 30px;
+	background-color: #000;
+}
+.footer-text{
+	color:#fff;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+.footer-text h3{
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+.footer-text p{
+	font-family: YesevaOne;
+	text-transform: justify;
+
+}
+.footer-time{
+	padding-left: 20px;
+}
